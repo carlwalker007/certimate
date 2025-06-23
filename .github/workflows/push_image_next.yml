@@ -31,7 +31,7 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           images: |
-            certimate/certimate
+            collinspeng/certimate
           tags: |
             type=ref,event=tag,pattern={{version}}
           flavor: |
